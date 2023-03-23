@@ -1,0 +1,10 @@
+.sectionEmpecemosporaqui{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    &:hover{
+        transform: translateX(-400px);
+        transition: all 3s;
+    }
+}

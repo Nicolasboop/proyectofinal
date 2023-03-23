@@ -1,0 +1,38 @@
+main{
+    .contacto{
+        margin: 10px;
+        padding: 10px;
+    }
+    .conociste{
+        padding-left: 230px;
+    }
+    .typefor{
+        padding-left: 75px;
+        }
+    .dias{
+        padding-left: 230px;
+    }
+    .saber{
+        padding-left: 5px;
+        word-spacing: 6px;
+        letter-spacing: 2px;
+        
+    }
+    .boton{
+        margin-top: 50px;
+        margin-left: 280px;
+    }
+    .mainContacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .pepe{
+            width: 800px;
+            height: 800px;
+            color: rgb(41, 158, 139);
+        }
+        legend{
+            text-align: center;
+        }
+    }
+}

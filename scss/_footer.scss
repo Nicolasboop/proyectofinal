@@ -1,0 +1,25 @@
+footer{
+    background-color: rgb(87, 87, 145);
+    border-top: 15px double rgb(41, 148, 209) ;
+    padding: 1em;
+    margin-bottom: 0;
+    .tituloFooter{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: #00eeff;
+    }
+    .divFooter{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .wp, .fb, .tg{
+            border: 0px;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 20px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

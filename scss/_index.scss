@@ -1,0 +1,57 @@
+    .sectionIndex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    h1{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding: 30px;
+        color:antiquewhite;
+    }
+    h2{
+        text-align: center;
+        color: rgba(42, 131, 190, 0.623);
+    }
+    p{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        padding: 5px;
+        word-spacing: 7px;
+        color: rgb(0, 93, 175);
+        width: 500px;
+        height: auto;
+        background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.753));
+    }
+    img{
+        border: 8px double rgba(42, 131, 190, 0.623);
+        width: 200px;
+        height: 200px;
+        margin: 25px;
+    }
+    
+    .imagenesCasas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 285px 285px 285px 285px 285px 285px;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    
+    img:hover{
+        transform: scale(1.5);
+    }
+    
+    img{
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    
+    .imgFondo{
+        width: 300px;
+        height: 500px;
+        border: 0px;
+    }

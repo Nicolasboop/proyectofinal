@@ -1,0 +1,25 @@
+header{
+    .navbar{
+        padding: 12px;
+        background: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.425));
+        border-bottom: 10px double #1f74ad;
+    }
+    .navbar-brand{
+        color: rgb(34, 122, 180);
+        word-spacing: -8px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        margin-right: 30rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-item{
+        padding-right: 5rem;
+    }    
+    .nav-link{
+        color: rgb(255 255 255);
+    }    
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color: rgb(255 255 255);
+    }
+}

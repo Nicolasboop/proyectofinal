@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2? family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Oswald:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar-brand{
+    color: #1f74ad;
+    word-spacing: -8px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-right: 30rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    padding-right: 5rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.sectionIndex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color:white;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 7px;
+    color: #1f74ad;
+    width: 500px;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.753));
+}
+
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.imgCs{
+    border: 8px double #1f74ad;
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+}
+
+
+img:hover{
+    transform: scale(1.5);
+}
+
+img{
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.tituloFooter{
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    color: #38a87a;
+}
+
+.divFooter{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+
+.tg, .wp, .fb{
+    border: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.ventas{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+fieldset{
+    text-align: center;
+    color:white;
+}
+
+.barriosPorteños{
+    padding-left: 5px;
+}
+
+.tipo-de-inmueble{
+    padding-left: 5px;   
+}
+
+legend{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+.h3-1{
+    padding-left: px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.conociste{
+    padding-left: 50px;
+}
+
+.saber{
+    padding-left: 50px;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.botonUnito{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.mainVentasyalquileres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.carrus{
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 450px;
+    justify-content: center
+
+}
+
+.d-block{
+    width: 300px;
+    height: 300px;
+    border: 0px;
+}
+
+@media screen and (min-width:500px){
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+.imagenesCasas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 285px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.navbar{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.425));
+    border-bottom: 10px double #1f74ad;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;    
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+
+.sectionEmpecemosporaqui{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+    
+    .puno{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pdos{
+    margin: 20px;
+    font-size: 15;
+    transform: translateX(10%, 300px);
+    }
+    
+    .ptres{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcuatro{
+    margin: 20px;
+    font-size: 15px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcinco{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+}
+
+.cnc{
+    margin: 15px;
+}
+caption{
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+
+.borderProductos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.mainContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.lebelComentario{
+    margin: 25px;
+}
+
+.pepe{
+    margin: 10px;
+    padding: 10px; 
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(41, 158, 139);
+    }
+
+.boton {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    background-color: #38a87a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }  
+
+
+
+@media screen and (min-width:750px){
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+.imagenesCasas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 285px 285px 285px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.navbar{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.425));
+    border-bottom: 10px double #1f74ad;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;    
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+
+.sectionEmpecemosporaqui{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    transform: translateX(10%, 300px);
+}
+    
+    .puno{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pdos{
+    margin: 20px;
+    font-size: 15;
+    transform: translateX(10%, 300px);
+    }
+    
+    .ptres{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcuatro{
+    margin: 20px;
+    font-size: 15px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcinco{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+}
+
+.cnc{
+    margin: 20px;
+}
+caption{
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+
+.borderProductos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.mainContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.lebelComentario{
+    margin: 25px;
+}
+
+.pepe{
+    margin: 10px;
+    padding: 10px; 
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #38a87a;
+    }
+
+.boton {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    background-color: #38a87a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }  
+
+
+@media screen and (min-width:1024px){
+    body{
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+.imagenesCasas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 285px 285px 285px 285px 285px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.navbar{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.425));
+    border-bottom: 10px double #1f74ad;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;    
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+
+.sectionEmpecemosporaqui{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    transform: translateX(10%, 300px);
+}
+    
+    .puno{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pdos{
+    margin: 20px;
+    font-size: 15;
+    transform: translateX(10%, 300px);
+    }
+    
+    .ptres{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcuatro{
+    margin: 20px;
+    font-size: 15px;
+    transform: translateX(10%, 300px);
+    }
+    
+    .pcinco{
+    margin: 20px;
+    font-size: 20px;
+    transform: translateX(10%, 300px);
+    }
+}
+
+.cnc{
+    margin: 30px;
+}
+caption{
+    text-align: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+}
+
+.borderProductos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.mainContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+.lebelComentario{
+    margin: 25px;
+}
+
+.pepe{
+    margin: 10px;
+    padding: 10px; 
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #38a87a;
+    }
+
+.boton {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    background-color: #38a87a;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }  

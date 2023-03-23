@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="navbar-1">
+        <header class="header" id="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Bienes Raices</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./empecemosporaqui.html">Empecemos por aqui</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ventas.html">Ventas</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    ¿Desea saber mas?
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./buenosaires.html">Nuestra Ciudad</a></li>
+                                    <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <h1 class="contacto">Contacto</h1>
+        <main class="mainContacto">
+            <form action="">
+                <fieldset>
+                    <legend>Como podemos mejorar?</legend>
+                    <div class="pepe">
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="phone">Telefono</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="correo">Correo</label>
+                            <input type="email" name="correo" id="correo">
+                        </div>
+                    </div>
+                        <br>
+                        <div>
+                            <label class="lebelComentario" for="comentario">Dejanos tu comentario</label>
+                            <br>
+                            <textarea name="comentario" id="comentario" cols="95" rows="10" placeholder="¿Como podemos ayudarte?"></textarea>
+                        </div>
+                    
+                    <br>
+                    <div class="conociste">
+                        <h3 class="h3-1">Donde nos conociste?</h3>
+                    </div>
+                    <div class="typefor">
+                        <input type="checkbox" name="insta" id="insta">
+                        <label for="insta">Instagram</label>
+                        <input type="checkbox" name="tg" id="tg">
+                        <label for="tg">Telegram</label>
+                        <input type="checkbox" name="face" id="face">
+                        <label for="face">Facebook</label>
+                        <input type="checkbox" name="wp" id="wp">
+                        <label for="wp">Whats app</label>
+                        <input type="checkbox" name="t" id="t">
+                        <label for="t">Taringa</label>
+                        <input type="checkbox" name="local" id="local">
+                        <label for="local">Local</label>
+                        <input type="checkbox" name="via publica" id="via-publica">
+                        <label for="via">Via Publica</label>
+                    </div>
+                    <br>
+                    <div class="saber">
+                        <h3>Cada cuanto quisieras recibir nuestras ofertas?</h3>
+                    </div>
+                    <div class="dias">
+                        <input type="radio" name="news" id="15">
+                        <label for="15">15 dias</label>
+                        <input type="radio" name="news" id="30">
+                        <label for="30">30 dias</label>
+                        <input type="radio" name="news" id="45">
+                        <label for="45">45 dias</label>
+                        <input type="radio" name="news" id="60">
+                        <label for="60">60 dias</label>
+                    </div>
+                    <input class="boton" type="submit" value="Enviar sujerencia">
+                </fieldset>
+            </form>
+        </main>
+    </main>
+    <footer>
+        <h2 class="tituloFooter">Encontranos aqui</h2>
+        <div class="divFooter">
+            <a href="https://web.telegram.org/z/" target="_blank"><img class="tg"
+                    src="../img/icons-telegram-app.svg"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img class="wp"
+                    src="../img/icons-whatsapp.svg"></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><img class="fb"
+                    src="../img/icons-facebook.svg"></a>
+        </div>
+
+        <a href="#header">Arriba</a>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</html>
